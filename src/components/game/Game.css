@@ -1,0 +1,27 @@
+
+.Game-showcase { 
+  width: 40%;
+  margin: 3rem auto;
+  display: flex;
+  border: 1px solid black;
+  height: 200px;
+}
+
+.Game-showcase .left, 
+.Game-showcase .right { 
+  flex-basis: 50%;
+  border: 1px solid black;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.game-item { 
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 0.5rem;
+  padding: 1rem;
+}
+
+.right { 
+  grid-row-gap: 0;
+}

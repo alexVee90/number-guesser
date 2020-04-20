@@ -1,0 +1,20 @@
+.btn { 
+  border: none;
+  border-radius: 10px;
+}
+
+.available { 
+  background: #f4f4f4;
+}
+
+.used { 
+  background: #ccc;
+}
+
+.in-use { 
+  background: green;
+}
+
+.exceed { 
+  background: red;
+}
